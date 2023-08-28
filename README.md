@@ -1,5 +1,7 @@
 # linux-palvelimet
-linux palvelimet kurssin palautukset (Albert Rashica)
+linux palvelimet kurssin palautukset
+## Minä
+Nimeni on Albert Rashica ja "app.terokarvinen.com"-sivusta löydät minut käyttäjänimellä bgx106.
 
 # h1 Oma Linux
 Tässä kirjoitin tiivistelmän, missä kävin läpi teorian
