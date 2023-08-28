@@ -1,5 +1,5 @@
 # linux-palvelimet
-linux palvelimet kurssin palautukset
+linux palvelimet kurssin palautukset (Albert Rashica)
 
 # h1 Oma Linux
 Tässä kirjoitin tiivistelmän, missä kävin läpi teorian
