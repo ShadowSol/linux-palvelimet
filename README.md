@@ -14,3 +14,6 @@ Oman raudan specsit ovat CPU 6 ytimen-prosessori, 16GB ram, sekä tarpeeksi tall
 
 ### Ensin avasin virtualboxin seuraavasti
 ![Add file: Upload](virtualbox-avaus.png)
+### VM-alkuasetukset
+![Add file: Upload](virtualbox-alkuasetukset.png)
+Tässä kohtaa valitsin new ja tein alkuasetukset VM-koneelle. Annoin nimeksi 'linux-palvelimet' VM-koneelle. Versioksi Valitsin Debian (64-bit). Varmistin myös, että "Skip unattended installation" on päällä. Disk Image:n jätin VDI:ksi eli Virtualbox Disk Image.
