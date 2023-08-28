@@ -26,6 +26,8 @@ Tässä sitten suoritin VM-koneen installerin, jotta sain Debian 12 live asennet
 ### Asennuksen viimeistely
 Tässä sitten viimeistelin asennuksen ja annoin Guest-hostille nimeksi 'linux-palvelimet'. Annoin root-salasanat ja käyttäjätunnukset käytettäväksi. Käytin Guided disk, eli koko virtuaalinen levy käytettäväksi.
 ![Add file: Upload](virtualbox-viimeistely.png)
+#### Huomio!
+Varmistin myös että käytettiin Network Mirroria, jotta saa apt-paketit käyttäytymään oikein. On kokemusta kun olen ennen tehnyt tätä virhettä.
 
 ## asennuksen jälkeen
 Asennuksen jälkeen kirjauduin Root-käyttäjänä ja lisäsin itseni eli käyttäjän bgx106 sudo-ryhmään komennolla
