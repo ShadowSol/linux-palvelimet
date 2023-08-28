@@ -23,3 +23,11 @@ Laitoin että VM saa tarpeeksi näyttömuistia. Laitoin myös grafiikkakontrolle
 ### ISO-levystä asennus
 Tässä sitten suoritin VM-koneen installerin, jotta sain Debian 12 live asennettua.
 ![Add file: Upload](virtualbox-iso-installer.png)
+### Asennuksen viimeistely
+Tässä sitten viimeistelin asennuksen ja annoin Guest-hostille nimeksi 'linux-palvelimet'. Annoin root-salasanat ja käyttäjätunnukset käytettäväksi. Käytin Guided disk, eli koko virtuaalinen levy käytettäväksi.
+![Add file: Upload](virtualbox-viimeistely.png)
+
+## asennuksen jälkeen
+Asennuksen jälkeen kirjauduin Root-käyttäjänä ja lisäsin itseni eli käyttäjän bgx106 sudo-ryhmään komennolla
+  usermod -aG sudo bgx106
+![Add file: Upload](debian12-sudo-usermod.png)
