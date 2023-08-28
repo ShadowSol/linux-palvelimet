@@ -11,4 +11,6 @@ Tässä kirjoitin tiivistelmän, missä kävin läpi teorian
 ## a) Linuxin asentaminen
 Koska minulla oli jo virtualbox ja Debian 12 live ISO valmiiksi ladattuna, tein uuden VM-koneen omalle raudalle.
 Oman raudan specsit ovat CPU 6 ytimen-prosessori, 16GB ram, sekä tarpeeksi tallennustilaa.
-Ensin avasin virtualboxin
+
+### Ensin avasin virtualboxin seuraavasti
+![Add file: Upload](virtualbox-avaus.png)
