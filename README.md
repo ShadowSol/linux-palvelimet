@@ -21,6 +21,7 @@ Tässä kohtaa valitsin new ja tein alkuasetukset VM-koneelle. Annoin nimeksi 'l
 ![Add file: Upload](virtualbox-alkuasetukset.png)
 ### Vram-muistin alustava sijoitus
 Laitoin että VM saa tarpeeksi näyttömuistia. Laitoin myös 3D acceleration päälle.
+![Add file: Upload](virtualbox-nayttomuisti.png)
 
 ### ISO-levystä asennus
 Tässä sitten suoritin VM-koneen installerin, jotta sain Debian 12 live asennettua.
