@@ -30,6 +30,12 @@ Tässä sitten viimeistelin asennuksen ja annoin Guest-hostille nimeksi 'linux-p
 Varmistin myös että käytettiin Network Mirroria, jotta saa apt-paketit käyttäytymään oikein. On kokemusta kun olen ennen tehnyt tätä virhettä.
 
 ## asennuksen jälkeen
-Asennuksen jälkeen kirjauduin Root-käyttäjänä ja lisäsin itseni eli käyttäjän bgx106 sudo-ryhmään komennolla
+Asennuksen jälkeen kirjauduin Root-käyttäjänä ja lisäsin itseni eli käyttäjän bgx106 sudo-ryhmään. Varmistin myös että kaikki paketit olivat uusimpia ja päivitin ne. Tässä ovat ne seuraavat komennot.
   usermod -aG sudo bgx106
+  sudo apt update && sudo apt upgrade -y
 ![Add file: Upload](debian12-sudo-usermod.png)
+Tämän jälkeen uskoin että kaikki on nyt ok ja aloitin tehtävän palauttamisen.
+
+## Palautus
+Tehtävän palautin "app.terokarvinen.com" osoitteeseen.
+
