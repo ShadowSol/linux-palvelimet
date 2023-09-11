@@ -58,5 +58,4 @@ tarkistin koeeni raudan:
 ## d) FHS:Esittele kansiot
 ![Add file: Upload](important-directories-osa-1.png)
 ![Add file: Upload](etc-kansio.png)
-![Add file: Upload](lshw-asennus.png)
 ![Add file: Upload](kansiot-loput.png)
