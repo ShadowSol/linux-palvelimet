@@ -84,8 +84,15 @@ kukin rivi kertoo että on tehty GET-pyyntö. Ensin pyydetään hakukoneen tiedo
 ## c) sivun vaihto uuteen
 ![Add file: Upload](sivun-vaihto.png)
 
-## d) Käyttäjän kotisivut
+## d + e) Käyttäjän kotisivut
 Ensin aktivoin käyttäjien sivut komennolla "sudo a2enmod userdir".
 Sen jälkeen käynnistän apache2 uudelleen komennolla "sudo systemctl restart apache2".
 Tämän jälkeen luon public_html kansion "/home/albert" kansion sisälle ja sen sisälle laitan muokatun index.html tiedoston.
 ![Add file: Upload](user-website.png)
+Varmistin myös että oikeudet on oikein, että se avautuu ongelmitta.
+![Add file: Upload](sivu-oikeudet.png)
+Sivu on validi, koska ei ole mitään ylimääräistä roskaa.
+## f)curl -l
+Tässä käytän komentoa tekemään pyyntö sivustosta, jonka olen luonut ja näkyy sivuston koodi.
+![Add file: Upload](curl-l.png)
+Tästä näkyy miten sivustoni muodostuu raakatiedostona. Kaikki GET-pyynnöt kuten faviconin etsiminen näkyy siinä.
