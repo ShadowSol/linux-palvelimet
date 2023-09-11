@@ -81,3 +81,5 @@ mulla oli jo valmiiksi asennettuna
 ## b) lokit
 kukin rivi kertoo että on tehty GET-pyyntö. Ensin pyydetään hakukoneen tiedot, sitten iconi, joka on apachen oma ikoni. sitten pyydetään favicon.
 ![Add file: Upload](lokit.png)
+## c) sivun vaihto uuteen
+![Add file: Upload](sivun-vaihto.png)
