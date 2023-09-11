@@ -39,59 +39,6 @@ Asennuksen jälkeen kirjauduin Root-käyttäjänä ja lisäsin itseni eli käytt
 ![Add file: Upload](debian12-sudo-usermod.png)
 Tämän jälkeen uskoin että kaikki on nyt ok ja aloitin tehtävän palauttamisen.
 
-
-# h2 Komentaja pingviini
-## x)Lue ja tiivistä muistiinpanot
- - "/etc/", järjestelmän asetukset ja yms.
- - "/var/log/", kaikki logit.
- - "sudo apt-get update", päivittää uusimmat mahdolliset asennettavat ohjelmat.
-## a) Micron asennus
-seuraavaksi asensin mikron.
-![Add file: Upload](mikron-asennus.png)
-## b) koneen rauta
-on käytössä SSD, sekä tarpeeksi muistitilaa. Olen antanut virtuaaliselle koneelle käytöksi 4 ydintä(virtuaalista, joten säikeitä, koska löytyy prosessorilta säikeitä)
-käytössä on nopea muisti, hyperX ram-muisti.
-tarkistin koeeni raudan:
-- Amd Ryzen 5 3600
-![Add file: Upload](koneen-rauta.png)
-## c) kolme ohjelmaa, micro(edellinen kuva), apache2, lshw
-![Add file: Upload](apache2-asennus.png)
-![Add file: Upload](lshw-asennus.png)
-## d) FHS:Esittele kansiot
-![Add file: Upload](important-directories-osa-1.png)
-![Add file: Upload](etc-kansio.png)
-![Add file: Upload](kansiot-loput.png)
-## e + f) GREP-komennot pipen kanssa
-![Add file: Upload](grep-log.png)
-![Add file: Upload](grep-banana.png)
-![Add file: Upload](grep-r.png)
-## g) Esimerkki onnistuneesta ja ei onnistuneesta komennosta
-![Add file: Upload](ei-onnistunut.png)
-![Add file: Upload](onnistunut.png)
-
-
-# h3 Web server
-## x) Muistiinpanot
-- "sudo a2enmod userdir", käyttäjille luvan antaminen
-- "sudo systemctl restart apache2", jos on tehnyt muutoksia
-## a) apache asennus
-mulla oli jo valmiiksi asennettuna
-![Add file: Upload](apache2-asennus.png)
-![Add file: Upload](apache2-sivu.png)
-## b) lokit
-kukin rivi kertoo että on tehty GET-pyyntö. Ensin pyydetään hakukoneen tiedot, sitten iconi, joka on apachen oma ikoni. sitten pyydetään favicon.
-![Add file: Upload](lokit.png)
-## c) sivun vaihto uuteen
-![Add file: Upload](sivun-vaihto.png)
-
-## d + e) Käyttäjän kotisivut
-Ensin aktivoin käyttäjien sivut komennolla "sudo a2enmod userdir".
-Sen jälkeen käynnistän apache2 uudelleen komennolla "sudo systemctl restart apache2".
-Tämän jälkeen luon public_html kansion "/home/albert" kansion sisälle ja sen sisälle laitan muokatun index.html tiedoston.
-![Add file: Upload](user-website.png)
-Varmistin myös että oikeudet on oikein, että se avautuu ongelmitta.
-![Add file: Upload](sivu-oikeudet.png)
-Sivu on validi, koska ei ole mitään ylimääräistä roskaa.
 ## f)curl -l
 Tässä käytän komentoa tekemään pyyntö sivustosta, jonka olen luonut ja näkyy sivuston koodi.
 ![Add file: Upload](curl-l.png)
