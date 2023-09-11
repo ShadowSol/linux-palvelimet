@@ -68,3 +68,13 @@ tarkistin koeeni raudan:
 ## g) Esimerkki onnistuneesta ja ei onnistuneesta komennosta
 ![Add file: Upload](ei-onnistunut.png)
 ![Add file: Upload](onnistunut.png)
+
+
+# h3 Web server
+## x) Muistiinpanot
+- "sudo a2enmod userdir", käyttäjille luvan antaminen
+- "sudo systemctl restart apache2", jos on tehnyt muutoksia
+## a) apache asennus
+mulla oli jo valmiiksi asennettuna
+![Add file: Upload](apache2-asennus.png)
+![Add file: Upload](apache2-sivu.png)
