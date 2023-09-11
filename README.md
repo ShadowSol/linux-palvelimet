@@ -51,4 +51,9 @@ Tehtävän palautin "app.terokarvinen.com" osoitteeseen.
 seuraavaksi asensin mikron.
 ![Add file: Upload](mikron-asennus.png)
 ## b) koneen rauta
+tarkistin koeeni raudan:
+- Amd Ryzen 5 3600
 ![Add file: Upload](koneen-rauta.png)
+## c) kolme ohjelmaa, micro(edellinen kuva), apache2, lshw
+![Add file: Upload](apache2-asennus.png)
+![Add file: Upload](lshw-asennus.png)
