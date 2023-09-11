@@ -42,3 +42,9 @@ Tämän jälkeen uskoin että kaikki on nyt ok ja aloitin tehtävän palauttamis
 ## Palautus
 Tehtävän palautin "app.terokarvinen.com" osoitteeseen.
 
+# h2 Komentaja pingviini
+## x)Lue ja tiivistä muistiinpanot
+ - "/etc/", järjestelmän asetukset ja yms.
+ - "/var/log/", kaikki logit.
+ - "sudo apt-get update", päivittää uusimmat mahdolliset asennettavat ohjelmat.
+## a) Micron asennus
