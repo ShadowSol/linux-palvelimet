@@ -59,3 +59,7 @@ tarkistin koeeni raudan:
 ![Add file: Upload](important-directories-osa-1.png)
 ![Add file: Upload](etc-kansio.png)
 ![Add file: Upload](kansiot-loput.png)
+## e + f) GREP-komennot pipen kanssa
+![Add file: Upload](grep-log.png)
+![Add file: Upload](grep-banana.png)
+![Add file: Upload](grep-r.png)
