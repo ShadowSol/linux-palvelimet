@@ -83,3 +83,9 @@ kukin rivi kertoo että on tehty GET-pyyntö. Ensin pyydetään hakukoneen tiedo
 ![Add file: Upload](lokit.png)
 ## c) sivun vaihto uuteen
 ![Add file: Upload](sivun-vaihto.png)
+
+## d) Käyttäjän kotisivut
+Ensin aktivoin käyttäjien sivut komennolla "sudo a2enmod userdir".
+Sen jälkeen käynnistän apache2 uudelleen komennolla "sudo systemctl restart apache2".
+Tämän jälkeen luon public_html kansion "/home/albert" kansion sisälle ja sen sisälle laitan muokatun index.html tiedoston.
+![Add file: Upload](user-website.png)
