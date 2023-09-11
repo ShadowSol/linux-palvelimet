@@ -48,4 +48,7 @@ Tehtävän palautin "app.terokarvinen.com" osoitteeseen.
  - "/var/log/", kaikki logit.
  - "sudo apt-get update", päivittää uusimmat mahdolliset asennettavat ohjelmat.
 ## a) Micron asennus
+seuraavaksi asensin mikron.
 ![Add file: Upload](mikron-asennus.png)
+## b) koneen rauta
+![Add file: Upload](koneen-rauta.png)
