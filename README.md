@@ -63,3 +63,6 @@ tarkistin koeeni raudan:
 ![Add file: Upload](grep-log.png)
 ![Add file: Upload](grep-banana.png)
 ![Add file: Upload](grep-r.png)
+## g) Esimerkki onnistuneesta ja ei onnistuneesta komennosta
+![Add file: Upload](ei-onnistunut.png)
+![Add file: Upload](onnistunut.png)
