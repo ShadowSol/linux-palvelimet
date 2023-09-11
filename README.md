@@ -39,8 +39,6 @@ Asennuksen jälkeen kirjauduin Root-käyttäjänä ja lisäsin itseni eli käytt
 ![Add file: Upload](debian12-sudo-usermod.png)
 Tämän jälkeen uskoin että kaikki on nyt ok ja aloitin tehtävän palauttamisen.
 
-## Palautus
-Tehtävän palautin "app.terokarvinen.com" osoitteeseen.
 
 # h2 Komentaja pingviini
 ## x)Lue ja tiivistä muistiinpanot
@@ -57,3 +55,8 @@ tarkistin koeeni raudan:
 ## c) kolme ohjelmaa, micro(edellinen kuva), apache2, lshw
 ![Add file: Upload](apache2-asennus.png)
 ![Add file: Upload](lshw-asennus.png)
+## d) FHS:Esittele kansiot
+![Add file: Upload](important-directories-osa-1.png)
+![Add file: Upload](etc-kansio.png)
+![Add file: Upload](lshw-asennus.png)
+![Add file: Upload](kansiot-loput.png)
