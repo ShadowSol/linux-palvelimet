@@ -49,6 +49,8 @@ Tämän jälkeen uskoin että kaikki on nyt ok ja aloitin tehtävän palauttamis
 seuraavaksi asensin mikron.
 ![Add file: Upload](mikron-asennus.png)
 ## b) koneen rauta
+on käytössä SSD, sekä tarpeeksi muistitilaa. Olen antanut virtuaaliselle koneelle käytöksi 4 ydintä(virtuaalista, joten säikeitä, koska löytyy prosessorilta säikeitä)
+käytössä on nopea muisti, hyperX ram-muisti.
 tarkistin koeeni raudan:
 - Amd Ryzen 5 3600
 ![Add file: Upload](koneen-rauta.png)
